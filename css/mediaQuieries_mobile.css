@@ -1,0 +1,386 @@
+/* Responsive Version tablette - screen to 767px */
+@media screen and (max-width: 767px) {
+    /* réglage logo et nav bar */
+    body 
+    {
+      width: 100%;
+      height: 100%;
+      font-size: 16px;
+      margin-right: auto;
+    }
+  
+    .page
+    {
+      width: 100%;
+      max-width: 767px;
+      height: auto;
+    }
+  
+    main 
+    {
+      height: auto;
+    }
+  
+    .nav_bar
+    {
+      display: flex;
+      flex-direction: column;
+      height: 140px;
+      padding: 0;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      font-size: 15px;
+    }
+  
+    .contenair_links
+    {
+      width: 100%;
+      height: 60px;
+    }
+  
+    .link_nav
+    {
+      width: 50%;
+      font-size:170%;
+      border-bottom: 4px solid var(--color-grey);
+    }
+  
+    .link_nav:hover
+    {
+      border-top: none;
+      border-bottom: 4px solid var(--color-blue);
+    }
+  
+    main 
+    {
+      margin: 0;
+      width: 100%;
+    }
+  
+    /* réglagage du titre */
+    .main_title
+    {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    
+    .main_title h2 
+    {
+      font-size: 200%;
+    }
+  
+    .main_title p 
+    {
+      font-size: 180%;
+    }
+  
+    /* régalage barre de recherche */
+    .top_page {
+      margin-top: 40px;
+      padding-right: 15px;
+    }
+    /*barre de recherche*/
+    .search_DeskTab {
+      display: none;
+    }
+    #search_block {
+      margin-top: 8%;
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    input {
+      width: 100%;
+      height: 54px;
+    }
+  
+    .search_phone {
+      display: block;
+      border-radius: 15px;
+      padding-left: 19px;
+      padding-right: 19px;
+      margin-left: -12px;
+    }
+  
+    .fa-location-dot {
+      background-color: #F2F2F2;
+      padding: 15px 17px 15px 18px;
+      border-radius: 15px 0px 0px 15px;      
+    }
+  
+    /* Réglages Filtres */
+    .title_filters
+    {
+      font-size: 25px;
+    }
+  
+    .contenair_filters
+    {
+      display:block;
+      margin: 30px 30px 0 30px;
+    }
+  
+    .bloc_filters
+    {
+      flex-wrap: wrap;
+    }
+  
+    .contenair_filter
+    {
+      border: 3px solid var(--color-grey);
+      height: 70px;
+      margin-bottom: 20px;
+      border-radius: 40px;
+      margin-right: 20px;
+      font-weight: bold;
+    }
+  
+    .filter_icons
+    {
+      font-size: x-large;
+      border-radius: 40px;
+      width: 68px;
+      height: 68px;
+      background-color: var(--color-blue-light);
+      color: var(--color-blue);
+      margin-left: -2px;
+    }
+  
+    .filter_txt
+    {
+      font-size: 25px;
+      height: 50px;
+      padding-left: 15px;
+      padding-right: 25px;
+    }
+  
+    /* Réglage Info */
+    .info
+    {
+      margin-left: 30px;
+      margin-right: 30px;
+      font-size: 150%;
+    }
+  
+    .info_icon
+    {
+      margin-top: 0;
+      width: 35px;
+      height: 35px;
+    }
+  
+    /* Partie hébergement et populaires */
+    /* Inversement entre popular et hebergement */
+    .mid_page {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    /* Populaires */
+    .populars
+    {
+      width: 100%;
+      padding: 4%;
+      border-radius: 0;
+      margin-bottom: 20px;
+    }
+  
+    .populars_title
+    {
+      width: 100%;
+      font-size: 24px;
+    }
+  
+    .populars_card 
+    {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 3%;
+      border: 7px solid white;
+      border-radius: 25px;
+      box-shadow: 4px 4px 6px #e6e6e6;
+    }
+  
+    .populars_img
+    {
+      width: 100%;
+      height: 186px;
+      object-fit: cover;
+      border-radius: 20px 0px 0px 20px;
+    }
+  
+    .pop_rightside
+    {
+      font-size: 150%;
+    }
+  
+    .populaires_title {
+      font-weight: bold;
+      padding-top: 4%;
+      padding-bottom: 3%;
+      padding-left: 4px;
+      object-fit: fill;
+      font-size: 18px;
+    }
+    .populaires_price {
+      font-size: smaller;
+      padding-top: 5px;
+      padding-left: 4px;
+      object-fit: fill;
+    }
+  
+    .stars_pop
+    {
+      padding-top: 50px;
+      font-size: 80%;
+    }
+  
+    .marseille_accommodations
+    {
+      width: 100%;
+      background-color: white;
+      padding: 20px;
+    }
+  
+    .accommodations_title
+    {
+      margin-top: 10px;
+      width: 100%;
+      font-size: 24px;
+    }
+  
+    .marseille_accommodations_display
+    {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .marseille_accommodations_card
+    {
+      width: 100%;
+      height: 440px;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      border: 7px solid white;
+      border-radius: 25px;
+      box-shadow: 4px 4px 6px 4px #e6e6e6;
+    }
+  
+    .marseille_accommodations_img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 20px 20px 0px 0px;
+    }
+  
+    .marseille_accommodations_title
+    {
+      font-size: 130%;
+      padding-bottom: 10px;
+    }
+  
+    .marseille_accommodation_price
+    {
+      font-size: 130%;
+    }
+  
+    /* Réglages activités*/
+    .bloc_activities
+    {
+        padding: 0;
+    }
+
+    .M_activities_display
+    {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .column_1_3
+    {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      background-color: white;
+      border-radius: 17px 17px 17px 17px;
+      box-shadow: 4px 4px 15px #e6e6e6;
+      margin-bottom: 10px;
+    }
+  
+    .column_2_4
+    {
+      width: 100%;
+      display: flex;
+      height: auto;
+      flex-direction: column;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  
+    #activities
+    {
+      margin-left: 20px;
+      font-size:150%;
+    }
+  
+    .A_Marseille_deux_tiers_card
+    {
+      height: 440px;
+    }
+  
+    .A_Marseille_deux_tiers_img
+    {
+      height: 390px;
+    }
+  
+    .A_Marseille_un_tiers_card
+    {
+      height: 440px;
+    }
+  
+    .A_Marseille_un_tiers_img
+    {
+      height: 390px;
+    }
+  
+    .A_Marseille_mi_card
+    {
+      height: 440px;
+    }
+  
+    .A_Marseille_mi2_card
+    {
+      height: 440px;
+    }
+  
+    .A_Marseille_mi_img
+    {
+      height: 390px;
+    }
+  
+    /* réglages footer*/
+    .display_footer
+    {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .column_footer
+    {
+      width: 100%;
+      font-size: 120%;
+    }
+  
+    footer 
+    {
+      margin-top: 20px;
+    }
+  }
